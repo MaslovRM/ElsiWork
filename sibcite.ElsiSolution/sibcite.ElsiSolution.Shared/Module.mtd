@@ -1,0 +1,57 @@
+{
+  "$type": "Sungero.Metadata.SolutionMetadata, Sungero.Metadata",
+  "NameGuid": "c4aa1d2f-21e9-4f6c-953b-2cc1506321de",
+  "Name": "ElsiSolution",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "sibcite.ElsiSolution.Client",
+  "ClientBaseAssemblyName": "sibcite.ElsiSolution.ClientBase",
+  "ClientBaseNamespace": "sibcite.ElsiSolution.ClientBase",
+  "ClientNamespace": "sibcite.ElsiSolution.Client",
+  "Code": "ElsiSol",
+  "CompanyCode": "sibcite",
+  "Cover": {
+    "NameGuid": "fb7f7385-fbcf-456d-912f-f12d891df43f",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "5305f7e3-8092-44ff-85f2-dced30ad2ce0",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "4609cebc-016d-4a17-b77a-788f5aa1ccd1",
+      "BackgroundPosition": "Stretch"
+    }
+  },
+  "DesktopViews": [],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "sibcite.ElsiSolution",
+  "OrderedSpecialFolders": [],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "sibcite.ElsiSolution",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "sibcite.ElsiSolution.Server",
+  "ServerNamespace": "sibcite.ElsiSolution.Server",
+  "SharedAssemblyName": "sibcite.ElsiSolution.Shared",
+  "SharedNamespace": "sibcite.ElsiSolution.Shared",
+  "SpecialFolders": [],
+  "Version": "3.0.0.20",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "SolutionMetadata",
+      "Number": 6
+    },
+    {
+      "Type": "ModuleMetadata",
+      "Number": 6
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "$type": "Sungero.Metadata.ModuleMetadata, Sungero.Metadata",
+  "NameGuid": "59932e6d-cd21-4b8c-8549-9bfba73a7ff9",
+  "Name": "Elsi",
+  "AsyncHandlers": [
+    {
+      "NameGuid": "848211ce-00d8-4078-8f80-b16665211212",
+      "Name": "DeleteSimpleTasksibcite",
+      "DelayPeriod": 15,
+      "DelayStrategy": "RegularDelayStrategy",
+      "IsHandlerGenerated": true,
+      "Parameters": [
+        {
+          "NameGuid": "cde5b73f-eb3a-4e57-94f3-c7766a4485e8",
+          "Name": "TaskIds",
+          "ParameterType": "String"
+        }
+      ]
+    },
+    {
+      "NameGuid": "f65f6c73-9d4e-4985-8fec-04b01d6c092a",
+      "Name": "CloseSignatureSetting",
+      "DelayPeriod": 1,
+      "DelayStrategy": "RegularDelayStrategy",
+      "IsHandlerGenerated": true,
+      "Parameters": [
+        {
+          "NameGuid": "de04a42a-3d8d-4f2f-95ad-0ad892406722",
+          "Name": "EmployeeId",
+          "ParameterType": "Integer"
+        }
+      ]
+    }
+  ],
+  "ClientAssemblyName": "sibcite.Elsi.Client",
+  "ClientBaseAssemblyName": "sibcite.Elsi.ClientBase",
+  "ClientBaseNamespace": "sibcite.Elsi.ClientBase",
+  "ClientNamespace": "sibcite.Elsi.Client",
+  "Code": "Elsi",
+  "CompanyCode": "sibcite",
+  "Cover": {
+    "NameGuid": "5a9f2b86-2356-4ca3-839d-7a2f444fa893",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "45be13d3-6345-4785-beab-381fffcde349",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "9add5864-6a58-4344-95f9-dd409da1b1ea",
+      "BackgroundPosition": "Stretch"
+    }
+  },
+  "Dependencies": [
+    {
+      "Id": "c4aa1d2f-21e9-4f6c-953b-2cc1506321de",
+      "IsSolutionModule": true,
+      "MaxVersion": "",
+      "MinVersion": ""
+    },
+    {
+      "Id": "92491aa6-c4df-4f46-a807-ebdd337bda74",
+      "MaxVersion": "",
+      "MinVersion": "1.1.0.0"
+    }
+  ],
+  "HandledEvents": [
+    "InitializingServer"
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "sibcite.Elsi",
+  "IsVisible": false,
+  "Jobs": [
+    {
+      "NameGuid": "9602ccc1-4584-4920-bfc1-7852323c9031",
+      "Name": "DelitingOldNotificationssibcite",
+      "GenerateHandler": true,
+      "MonthSchedule": "Monthly",
+      "StartAt": "1753-01-01T01:00:00"
+    },
+    {
+      "NameGuid": "cf83d9ba-14c3-43fa-b308-4f0c0d17870c",
+      "Name": "ToManySessionNoticesibcite",
+      "Daily": "Repeat",
+      "GenerateHandler": true,
+      "MonthSchedule": "Monthly",
+      "TimePeriod": 60
+    }
+  ],
+  "Overridden": [
+    "IsVisible"
+  ],
+  "PublicConstants": [
+    {
+      "Name": "ContractTypeGuid",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"f37c7e63-b134-4446-9b5b-f8811f6c9666\""
+    },
+    {
+      "Name": "DefaultValue",
+      "ParentClasses": [
+        "Module",
+        "CheckContractExpiringWorkingDays"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"3\""
+    },
+    {
+      "Name": "Key",
+      "ParentClasses": [
+        "Module",
+        "CheckContractExpiringWorkingDays"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"CheckContractExpiringWorkingDays\""
+    }
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "GetAppliedParamIntValue",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "paramName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "defaultValue",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Int32",
+      "ReturnTypeFullName": "System.Int32"
+    },
+    {
+      "Name": "ShowAppliedSettings",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "sibcite.Elsi",
+  "ResourcesKeys": [
+    "AccessDenied",
+    "AppliedSettingsAccessDenied",
+    "AppliedSettingsDialogTitle",
+    "AppliedSettingsDialogSetting",
+    "AppliedSettingsDialogValue",
+    "AppliedSettingsDialogSave",
+    "AppliedSettingsDialogCancel",
+    "DeletingSimpleTaskNotificationLogMessage",
+    "DeletingSimpleTaskNotificationLogError",
+    "DeletingSimpleTaskNotificationTaskCount",
+    "ToManySessionsSubject"
+  ],
+  "ServerAssemblyName": "sibcite.Elsi.Server",
+  "ServerNamespace": "sibcite.Elsi.Server",
+  "SharedAssemblyName": "sibcite.Elsi.Shared",
+  "SharedNamespace": "sibcite.Elsi.Shared",
+  "SpecialFolders": [],
+  "Version": "3.0.0.20",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "ModuleMetadata",
+      "Number": 6
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}
